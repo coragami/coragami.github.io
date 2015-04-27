@@ -3,17 +3,72 @@
   src: url('fonts/raleway/Raleway-Thin.ttf');
   font-weight: 100;
 }
-
 @font-face {
   font-family: 'raleway';
   src: url('fonts/raleway/Raleway-ExtraLight.ttf');
   font-weight: 200;
 }
-
-.main {
+@media(max-width: 600px) {
+  h1 {
+    font-size: 20pt;
+  }
+}
+.topmenu {
+  font-family: 'raleway' sans-serif;
+  font-weight: 200;
+  text-align: right;
+  background-color: #d6d6d6;
+  color: white;
+  width: 100%;
+  padding: 10px 10px 10px 0px;
+  border: -10px;
+}
+.header {
   font-family: 'raleway', sans-serif;
   font-weight: 200;
   font-size: 80pt;
-  color: #ff6163;
+  /* color: #ff6163; */
+  /* color: #FC8182; */
+  /* color: #FA7875; */
+  color: #FA5F62;
   text-align: center;
+  padding: 50px 0px 0px 0px;
+}
+.subheader {
+  font-family: 'raleway', sans-serif;
+  color: #969696;
+  text-align: center;
+  font-size: 12pt;
+}
+body {
+  font-family: 'raleway', sans-serif;
+}
+h1 {
+  font-size: 36pt;
+  font-weight: 200;
+  color: #FA5F62;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+}
+.navbar-default {
+  margin: -10px;
+  margin-bottom: 0px;
+}
+.navbar-header {
+  float: right;
+}
+ul {         
+          padding: 0 0 0 0;
+          margin: 0 0 0 0;
+      }
+ul li {     
+          list-style:none;
+          margin-bottom:25px;         
+      }
+ul li img {
+          cursor: pointer;
+      }
+img {
+  border: 3px;
+  border-color: #ccc;
 }
