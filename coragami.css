@@ -57,6 +57,8 @@ h1 {
 .navbar-header {
   float: right;
 }
+
+/*
 ul {         
           padding: 0 0 0 0;
           margin: 0 0 0 0;
@@ -69,6 +71,6 @@ ul li img {
           cursor: pointer;
       }
 img {
-  border: 3px;
+  margin: 3px;
   border-color: #ccc;
-}
+} */
